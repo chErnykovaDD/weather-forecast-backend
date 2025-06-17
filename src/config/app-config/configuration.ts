@@ -15,4 +15,13 @@ export default () => ({
         apiKey: process.env.WEATHER_API_KEY,
         url: process.env.WEATHER_URL,
     },
+    mail: {
+        host: process.env.SMTP_HOST,
+        port: process.env.SMTP_PORT,
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASSWORD,
+    },
+    token: {
+        secret: process.env.SECRET_KEY,
+    },
 });
